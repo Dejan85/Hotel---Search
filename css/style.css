@@ -157,6 +157,20 @@ body {
   padding: 2.5rem;
   color: var(--color-grey-light-4); }
 
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
+.overview {
+  display: flex;
+  outline: 1px solid red; }
+  .overview__icon-star, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary); }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -185,6 +199,5 @@ body {
 
 .hotel-view {
   background: #fff;
-  background: orange;
   flex: 1;
   height: 80rem; }
